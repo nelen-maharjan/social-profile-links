@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background: #000;
+    height: 100%;
+    width: 100%;
+}
+
+.box{
+    background: hsl(0, 0%, 12%);
+    width: 350px;
+    border: none;
+    outline: none;
+    padding: 2rem 1rem;
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.image{
+    margin: 8px 0;
+}
+.image img{
+    border-radius: 50%;
+}
+
+.title{
+    margin: 10px;
+}
+
+.title h3{
+    font-size: 1.4rem;
+    margin: 5px;
+}
+
+.title h4{
+    font-size: 0.9rem;
+    color: hsl(75, 94%, 57%);
+    margin: 8px 0 14px 0;
+}
+
+.title p{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.social-links ul li{
+    list-style: none;
+    margin: 14px 10px;
+    padding: 10px;
+    border: 1px #fff;
+    border-radius: 8px;
+    background: hsl(0, 0%, 20%);
+    cursor: pointer;
+}
+
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.social-links ul li:hover{
+    background: hsl(75, 94%, 57%);
+    color: #000;
+}
+
+ul li:hover a{
+    color: black;
+}
+
+@media (max-width: 476px){
+    .box{
+        margin:40% auto;
+    }
+}
+
