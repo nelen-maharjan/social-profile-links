@@ -36,19 +36,20 @@ body{
     margin: 10px;
 }
 
-.title h3{
-    font-size: 1.4rem;
+.title .heading{
+    font-size: 1.3rem;
     margin: 5px;
+    font-weight: 600;
 }
 
 .title h4{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: hsl(75, 94%, 57%);
     margin: 8px 0 14px 0;
 }
 
 .title p{
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 20px;
 }
 
