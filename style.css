@@ -8,9 +8,11 @@
 }
 
 body{
-    background: #000;
-    height: 100%;
-    width: 100%;
+    background: hsl(0, 2%, 10%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box{
@@ -20,7 +22,6 @@ body{
     outline: none;
     padding: 2rem 1rem;
     text-align: center;
-    margin: 65px auto;
     border-radius: 8px;
     color: #fff;
 }
@@ -78,9 +79,4 @@ ul li:hover a{
     color: black;
 }
 
-@media (max-width: 476px){
-    .box{
-        margin:40% auto;
-    }
-}
 
